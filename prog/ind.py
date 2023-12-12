@@ -12,13 +12,11 @@ def search_area(type = 0):
         '''
         return 1 / 2 * a * h
 
-
     def rectangle(a, b):
         '''
         Функция вычисления площади прямоугольника.
         '''
         return a * b
-    
     
     if type == 0:
         return triangle
